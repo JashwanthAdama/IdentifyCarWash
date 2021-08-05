@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.justdial.testcases.FitnessTestCases">
+        <methods>
+          <include name="terminate"/>
+          <include name="fitness"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- com.justdial.testcases.FitnessTestCases -->
+      <class name="com.justdial.testcases.HomepageTestCases">
+        <methods>
+          <include name="websiteTest"/>
+          <include name="terminate"/>
+          <include name="Browser"/>
+        </methods>
+      </class> <!-- com.justdial.testcases.HomepageTestCases -->
+      <class name="com.justdial.testcases.FreelistingTestCases">
+        <methods>
+          <include name="launch"/>
+          <include name="terminate"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- com.justdial.testcases.FreelistingTestCases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
